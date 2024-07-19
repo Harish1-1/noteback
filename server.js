@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors({
-  origin: 'https://notefront-5978.onrender.com/', 
+  origin: 'https://notefront-5978.onrender.com', 
   optionsSuccessStatus: 200
 }));
 
